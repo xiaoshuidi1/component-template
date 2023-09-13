@@ -1,0 +1,75 @@
+{
+  "name": "component-template",
+  "version": "1.0.0",
+  "description": "function of the component",
+  "license": "MIT",
+  "author": "dongwenjuan",
+  "maintainers": [
+    "dongwenjuan"
+  ],
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "es": "es"
+  },
+  "files": [
+    "lib",
+    "es"
+  ],
+  "scripts": {
+    "build:dev": "npm run test && npm run clean && rollup -c --environment NODE_ENV:development -w",
+    "build:prod": "npm run test && npm run clean && rollup -c --environment NODE_ENV:production",
+    "clean": "rm -rf es lib",
+    "prepare": "npm run build:prod",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "7.13.15",
+    "@babel/preset-react": "7.13.13",
+    "@babel/preset-typescript": "7.13.0",
+    "@rollup/plugin-alias": "3.1.1",
+    "@testing-library/jest-dom": "5.16.5",
+    "@testing-library/react": "13.4.0",
+    "@testing-library/user-event": "14.4.3",
+    "@types/jest": "28.1.1",
+    "@types/node": "14.14.41",
+    "@types/postcss-import": "12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@typescript-eslint/eslint-plugin": "5.48.1",
+    "@typescript-eslint/parser": "5.48.1",
+    "@wessberg/rollup-plugin-ts": "1.3.3",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "eslint": "7.11.0",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.32.0",
+    "identity-obj-proxy": "3.0.0",
+    "jest": "28.1.3",
+    "jest-environment-jsdom": "28.1.2",
+    "less": "4.1.3",
+    "postcss-import": "12.0.1",
+    "prettier": "2.7.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "rollup": "2.26.5",
+    "rollup-plugin-alias": "2.2.0",
+    "rollup-plugin-babel": "4.4.0",
+    "rollup-plugin-cleanup": "3.2.1",
+    "rollup-plugin-commonjs": "10.1.0",
+    "rollup-plugin-less": "1.1.2",
+    "rollup-plugin-postcss": "3.1.6",
+    "rollup-plugin-terser": "7.0.2",
+    "rollup-plugin-typescript2": "0.29.0",
+    "ts-node": "10.9.1",
+    "typescript": "3.8.2"
+  },
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "publishConfig": {
+    "registry": "https://registrynpm.ys7.com/"
+  }
+}
