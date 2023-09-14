@@ -1,4 +1,4 @@
-# ezb-template
+# ezb-template-name
 
 ## 功能介绍
 
@@ -10,7 +10,7 @@ ezb-template-using-range-value
 
 ## 使用方法
 
-`npm install @ezviz/ezb-template`
+`npm install @ezviz/ezb-template-name`
 
 ## 代码演示
 
