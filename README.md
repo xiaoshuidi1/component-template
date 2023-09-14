@@ -2,7 +2,7 @@
 
 ## 功能介绍
 
-> TODO: description
+ezb-template-function-value
 
 ## 使用范围
 
@@ -22,4 +22,6 @@ ezb-template-using-range-value
 
 ## 更新记录
 
-> TODO: log
+| 版本号 |           时间           | 变更说明 |
+| ------ | :----------------------: | ------- |
+| 0.0.1  | ezb-template-create-time | 初始化 |
