@@ -6,7 +6,7 @@
 
 ## 使用范围
 
-> TODO: using range （适用于 web 页面、h5 页面）
+ezb-template-using-range-value
 
 ## 使用方法
 

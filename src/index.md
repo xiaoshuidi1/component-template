@@ -1,8 +1,8 @@
 ---
 title: ezb-template
-order: 0
+order: ezb-template-page-order
 group:
-  title: H5组件
+  title: ezb-template-group-value
   order: -1
 nav:
   title: 业务组件
@@ -17,7 +17,7 @@ toc: content
 
 ## 使用范围
 
-> TODO: using range （适用于 web 页面、h5 页面）
+ezb-template-using-range-value
 
 ## 使用方法
 
