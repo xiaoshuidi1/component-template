@@ -9,7 +9,7 @@ nav:
 toc: content
 ---
 
-# ezb-template-name
+# [ezb-template-name](https://npm.ys7.com/package/@ezviz/ezb-template-name)
 
 ## 功能介绍
 
