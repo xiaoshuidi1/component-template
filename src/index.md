@@ -3,7 +3,7 @@ title: ezb-template-name
 order: ezb-template-page-order
 group:
   title: ezb-template-group-value
-  order: -1
+  order: ezb-template-group-order
 nav:
   title: 业务组件
 toc: content
@@ -34,5 +34,5 @@ ezb-template-using-range-value
 ## 更新记录
 
 | 版本号 |           时间           | 变更说明 |
-| ------ | :----------------------: | ------- |
+| :------: | :----------------------: | ------- |
 | 0.0.1  | ezb-template-create-time | 初始化 |
