@@ -21,6 +21,7 @@
     "build:dev": "npm run test && npm run clean && rollup -c --environment NODE_ENV:development -w",
     "build:prod": "npm run test && npm run clean && rollup -c --environment NODE_ENV:production",
     "clean": "rm -rf es lib",
+    "ezb:publish": "npm publish",
     "prepare": "npm run build:prod",
     "test": "jest"
   },
