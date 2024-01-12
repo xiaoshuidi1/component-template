@@ -7,6 +7,7 @@ group:
 nav:
   title: 业务组件
 toc: content
+mobile: ezb-template-docs-type
 ---
 
 # [ezb-template-name](https://npm.ys7.com/package/@ezviz/ezb-template-name)
