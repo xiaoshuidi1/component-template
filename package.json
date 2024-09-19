@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "function of the component",
   "license": "MIT",
-  "author": "dongwenjuan",
+  "author": "xxx",
   "maintainers": [
-    "dongwenjuan"
+    "xxx"
   ],
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -74,6 +74,6 @@
     "react-dom": "^16.9.0"
   },
   "publishConfig": {
-    "registry": "https://registrynpm.ys7.com/"
+    "registry": "https://xxx.xxx.com/"
   }
 }
